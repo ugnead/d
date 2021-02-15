@@ -1,0 +1,375 @@
+/* =========================================
+GENERAL
+=========================================== */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+/* =========================================
+GENERAL BLOCKS
+=========================================== */
+
+.block {
+    padding: 93px 0;
+    color: #222
+}
+
+.block .block-title {
+    text-align: center;
+}
+
+.block .block-title h2 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.red-hr {
+    border-top: 4px solid #EB5757;
+    opacity: 1;
+    margin: 0 auto;
+    width: 31px;
+}
+
+.block .block-title p {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 3em;
+    max-width: 700px;
+    font-size: 20px;
+}
+
+/* =========================================
+NAVBAR
+=========================================== */
+
+.navbar {
+    height: 100px;
+}
+
+.navbar > div {
+    padding-right: 70px;
+    padding-left: 70px;
+} 
+
+.navbar .navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #222;
+}
+
+@media (max-width: 356px) {
+    .navbar > div {
+        padding-right: 20px;
+        padding-left: 30px;
+    }
+}
+
+.navbar-toggler {
+    border: none;
+    outline-style: none;
+}
+
+.navbar-toggler:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+
+.navbar .navbar-nav .nav-item {
+    padding-left: 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #222;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-collapse {
+    background-color: white;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active,
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #EB5757;
+}
+
+/* =========================================
+HEADER
+=========================================== */
+
+header {
+    height: 90vh;
+    background-image: url("images/pexels-vishnu-r-nair-1105666.jpg");
+    background-size: cover;
+}
+
+header .container, 
+header .container .row {
+    height: 100%;
+}
+
+header .row {
+    align-items: center;
+    text-align: center;
+}
+
+header h1, 
+header p {
+    color: white;
+}
+
+header h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 40px;
+}
+
+header .buttons a {
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+}
+
+header .buttons .btn-primary {
+    padding: 15px 65px;
+    background-color: #EB5757;
+    
+}
+
+header .buttons .btn-secondary {
+    padding: 15px 51px;
+    background-color: white;
+    color: #EB5757;
+}
+
+.buttons .btn-primary:hover {
+    background-color: #ee8484;
+ }
+
+.buttons .btn-secondary:hover {
+    background-color: #ebd7d7;
+ }
+
+.btn:focus {
+    outline: 0;
+    box-shadow: none!important;
+}
+
+/* =========================================
+INFO AFTER HEADER
+=========================================== */
+
+.info-after-header {
+    background-color: #EB5757;
+}
+
+.info-after-header p {
+    text-align: center;
+    font-size: 20px;
+    padding: 39px 0;
+    color: white;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* =========================================
+ARTISTS BLOCK
+=========================================== */
+
+.artists-block .artist h3 {
+    margin: 36px 0 8px 0;
+    font-size: 24px;
+}
+
+.artists-block .artist p {
+    font-size: 16px;
+}
+
+.artists-block .artists-wrapper .artist {
+    margin: 20px 0;
+    text-align: center;
+    
+}
+
+/* =========================================
+GELLERY BLOCK
+=========================================== */
+
+.gallery-block {
+    background-color: rgba(235, 87, 87, 0.1);
+}
+
+.gallery-block .gallery-wrapper .image > img{
+    margin: 12px;
+}
+
+/* =========================================
+TICKETS BLOCK
+=========================================== */
+
+.tickets-block {
+    background-color: rgb(229, 229, 229, .5);;
+}
+
+.tickets-block .tickets-wrapper .ticket {
+    text-align: center;
+    background-color: white;
+    margin: 20px 27px;
+    width: 380px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+}
+
+.tickets-block .tickets-wrapper .ticket  h3 {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 32px;
+}
+
+.tickets-block .tickets-wrapper .ticket hr {
+    margin: 30px 0;
+}
+
+.tickets-block .tickets-wrapper .ticket  p {
+    font-size: 16px;
+}
+
+.tickets-block .tickets-wrapper .price {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.tickets-block .tickets-wrapper span {
+    color: #EB5757;
+    font-size: 26px;
+}
+
+.tickets-block .buttons .btn-primary {
+    border: none;
+    font-size: 14px;
+    padding: 11px 63px;
+    margin-top: 22px;
+    margin-bottom: 39px; 
+    background-color: #EB5757;
+    letter-spacing: 1px;
+}
+
+.tickets-block .buttons .btn-primary:hover {
+    background-color: #ee8484;
+ }
+
+/* =========================================
+MAP BLOCK
+=========================================== */
+
+.map-block {
+    background-color: rgba(235, 87, 87, 0.1);
+}
+
+iframe {
+    width: 90%;
+    height: 443px;
+    margin: 0 5%;
+}
+
+/* =========================================
+FOOTER
+=========================================== */
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 25px 73px;
+    background-color: white;
+}
+
+@media (max-width: 991px) {
+    .footer-wrapper {
+        display: block;
+        width: 100%!important;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer-wrapper {
+        text-align: center;
+        padding: 25px 0;
+    }
+}
+
+footer h4 {
+    margin: 0;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 0.5em;
+}
+
+footer a {
+    color: #222222; 
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    text-align: end;
+ 
+}
+
+@media (max-width: 992px) {
+    footer ul {
+        text-align: center;
+    }
+}
+
+footer ul li {
+    margin: 0;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20px;
+    padding-top: 0.5em;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+@media (max-width: 992px) {
+    footer ul li {
+        width: 100px;
+    }
+}
+
+footer a {
+    color: #222222; 
+}
+
+footer ul a:hover {
+    color: #EB5757;
+}
+
+footer a {
+    text-decoration: none;
+    list-style-type: none;
+    transition: 0.2s all;
+}
